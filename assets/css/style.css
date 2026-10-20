@@ -95,10 +95,16 @@ p { margin: 0 0 1em; }
 .hero .lead { font-size: 1.25rem; color: var(--ink-soft); max-width: 60ch; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.8rem; }
 
-/* faint geometric motif in the corner — nods to manifolds/graphs */
-.hero-motif {
-  position: absolute; right: -80px; top: -60px; width: 460px; height: 460px;
-  opacity: .5; pointer-events: none; z-index: -1;
+/* two-column hero: text left, project illustration right */
+.hero-grid { display: flex; align-items: center; gap: 3rem; }
+.hero-text { flex: 1 1 54%; min-width: 0; }
+.hero-illustration {
+  flex: 1 1 42%; width: 100%; max-width: 480px; height: auto;
+  margin: 0 0 0 auto;
+}
+@media (max-width: 860px) {
+  .hero-grid { flex-direction: column; align-items: stretch; gap: 1.5rem; }
+  .hero-illustration { max-width: 100%; margin: .5rem 0 0; }
 }
 
 .eyebrow {
