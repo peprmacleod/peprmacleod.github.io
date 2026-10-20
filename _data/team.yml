@@ -1,0 +1,51 @@
+# Consortium — source: slide_mcleod (slide "Project MacLeOD consortium").
+# First names expanded from initials where known in the community; PLEASE VERIFY
+# spellings and add missing people / links / emails.
+
+leads:
+  - name: "Rémi Flamary"
+    role: "Coordinator"
+    affiliation: "École Polytechnique"
+    link: ""
+  - name: "Laetitia Chapel"
+    role: "Coordinator"
+    affiliation: "Institut Agro / Université Bretagne Sud"
+    link: ""
+
+# Members grouped by partner institution (as on the consortium slide).
+groups:
+  - institution: "École Polytechnique — IP Paris (X-IPP)"
+    members:
+      - name: "Rémi Flamary"
+        role: "Coordinator"
+      - name: "Florence d'Alché-Buc"
+      - name: "Charlotte Laclau"
+      - name: "Karim Lounici"
+      - name: "Luiz Chamon"
+
+  - institution: "Université Bretagne Sud (UBS)"
+    members:
+      - name: "Laetitia Chapel"
+        role: "Coordinator"
+      - name: "Nicolas Courty"
+      - name: "Romain Tavenard"
+      - name: "Yann Cabanes"
+
+  - institution: "Inria Lyon"
+    members:
+      - name: "Titouan Vayer"
+      - name: "Mathurin Massias"
+
+  - institution: "École Normale Supérieure (ENS)"
+    members:
+      - name: "Julie Delon"
+      - name: "Kimia Nadjahi"
+
+# Recruitments planned (source: "Recruitments and first actions" slide).
+recruitments:
+  - "X-IPP — 1y Engineer (2027 or 2028)"
+  - "X-IPP — 1y PostDoc (2027 or 2028)"
+  - "UBS — 1y PostDoc (early 2027)"
+  - "UBS — PhD student, ½ funding (2027–2030)"
+  - "Inria Lyon — PhD student (2027–2030)"
+  - "ENS — PhD student (2027–2030)"

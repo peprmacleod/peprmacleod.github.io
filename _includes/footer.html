@@ -1,0 +1,46 @@
+<section class="funders" aria-label="Funding">
+  <div class="wrap funders-inner">
+    <span class="funders-label">Funded by</span>
+    <a href="{{ site.institutional_page }}" class="funder-logo">
+      <img src="{{ '/assets/img/logos/pepr-ia.png' | relative_url }}"
+           alt="France 2030 — PEPR IA (Programme de recherche Intelligence Artificielle)"
+           height="56">
+    </a>
+    <a href="https://anr.fr/" class="funder-logo">
+      <img src="{{ '/assets/img/logos/anr.png' | relative_url }}"
+           alt="Agence Nationale de la Recherche (ANR)" height="34">
+    </a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-col">
+      <p class="footer-title">{{ site.title }}</p>
+      <p class="muted">{{ site.tagline }}</p>
+      <p class="muted">A project of the <strong>{{ site.program }}</strong>.</p>
+    </div>
+
+    <div class="footer-col">
+      <p class="footer-title">Consortium</p>
+      <ul class="plain">
+        {% for p in site.partners %}<li class="muted">{{ p }}</li>{% endfor %}
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <p class="footer-title">Links</p>
+      <ul class="plain">
+        <li><a href="{{ site.institutional_page }}">Institutional page (PEPR IA)</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="wrap funding">
+    <p class="muted small">
+      PEPR IA is steered by CEA, CNRS and Inria, funded by France 2030 and
+      operated by ANR. <!-- TODO: add official logos in /assets/img/logos/ -->
+    </p>
+  </div>
+</footer>

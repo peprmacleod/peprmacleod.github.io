@@ -1,0 +1,10 @@
+# Open-source software released or used by the project.
+# Add more entries with the same fields (logo is optional).
+- name: "POT — Python Optimal Transport"
+  logo: "/assets/img/software/pot.svg"
+  description: >-
+    Open-source Python library providing state-of-the-art solvers for optimal
+    transport problems in machine learning, data science and signal processing
+    (OT, Gromov-Wasserstein, sliced OT, barycenters, and more).
+  url: "https://pythonot.github.io/"
+  repo: "https://github.com/PythonOT/POT"

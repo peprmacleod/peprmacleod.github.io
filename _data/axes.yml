@@ -1,0 +1,26 @@
+# The five research axes of MacLeOD.
+# Source: https://www.pepr-ia.fr/projet/macleod-2/
+- id: 1
+  title: "Modelling complex distributions"
+  summary: >-
+    Model complex distributions with new optimal transport problems that go
+    beyond classical settings.
+- id: 2
+  title: "Scalable OT on manifolds"
+  summary: >-
+    Design efficient algorithms for processing large-scale distributions that
+    live on manifolds.
+- id: 3
+  title: "Distribution-encoding architectures"
+  summary: >-
+    Design deep learning architectures that encode distributions supported on
+    manifolds.
+- id: 4
+  title: "Distributional geometric deep learning"
+  summary: >-
+    Develop distributional geometric deep learning for graph modelling.
+- id: 5
+  title: "Interpreting neural networks"
+  summary: >-
+    Analyse and interpret deep neural networks through distributions and
+    operator theory.

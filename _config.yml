@@ -1,0 +1,59 @@
+# --- Site settings ---
+title: "MacLeOD"
+tagline: "Machine Learning on Geometries and Distributions"
+description: >-
+  MacLeOD is a PEPR IA research project unifying geometric and distributional
+  deep learning through optimal transport on complex geometric spaces.
+lang: en
+# Set this to the final URL once known, e.g. https://macleod.pepr-ia.fr
+url: ""
+# For a GitHub Pages project site served at user.github.io/REPO, set:
+#   baseurl: "/REPO"
+baseurl: ""
+
+# --- Project metadata ---
+program: "PEPR IA"
+institutional_page: "https://www.pepr-ia.fr/projet/macleod-2/"
+# ANR reference used to pull publications from HAL (field anrProjectReference_s)
+hal_anr_code: "ANR-25-PEIA-0005"
+
+leads:
+  - name: "Rémi Flamary"
+    role: "Professor"
+    affiliation: "École Polytechnique"
+  - name: "Laetitia Chapel"
+    role: "Professor"
+    affiliation: "Institut Agro Rennes-Angers"
+
+partners:
+  - "Institut Polytechnique de Paris"
+  - "Université Bretagne Sud"
+  - "École Normale Supérieure (ENS)"
+  - "Inria"
+
+# --- Navigation (order matters) ---
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "The project"
+    url: "/project/"
+  - title: "Team"
+    url: "/team/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Software"
+    url: "/software/"
+  - title: "News"
+    url: "/news/"
+  - title: "Contact"
+    url: "/contact/"
+
+# --- Build settings ---
+markdown: kramdown
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - preview.html
+  - vendor
