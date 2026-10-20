@@ -29,16 +29,6 @@ neural architectures needed to make them practical at scale.
 {{ axis.summary }}
 {% endfor %}
 
-## Scaling optimal transport
-
-A recurring bottleneck of OT is its computational complexity. MacLeOD tackles
-this through **slicing** and **random projections**, lifting OT to large-scale
-settings on manifolds and graphs.
-
-## Ethics by design
-
-MacLeOD follows an **"Ethics by Design"** approach, anticipating and limiting
-the risks of misuse of the methods we develop from the outset of the research.
 
 <div class="callout" markdown="1">
 This page summarises the project. See the

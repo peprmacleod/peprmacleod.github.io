@@ -34,9 +34,3 @@ geometric deep learning architectures.
 {% endfor %}
 </div>
 {% endif %}
-
-<div class="callout" markdown="1">
-More libraries and reproducibility code from the project will be listed here.
-Add entries to <code>_data/software.yml</code> (name, description, url, repo,
-and an optional logo under <code>assets/img/software/</code>).
-</div>

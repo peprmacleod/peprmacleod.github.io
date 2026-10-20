@@ -24,12 +24,14 @@ groups:
       - name: "Rémi Flamary"
         role: "Coordinator"
         link: "https://remi.flamary.com/"
+        photo: "remi.jpg"
       - name: "Florence d'Alché-Buc"
         link: "https://perso.telecom-paris.fr/fdalche/"
+        photo: "florence.jpg"
       - name: "Charlotte Laclau"
         link: "https://laclauc.github.io/"
       - name: "Karim Lounici"
-        link: ""   # TODO: add personal page
+        link: "https://klounici.github.io/"   # TODO: add personal page
       - name: "Luiz Chamon"
         link: "https://luizchamon.com/"
       - name: "Clément Bonet"
@@ -40,17 +42,21 @@ groups:
       - name: "Laetitia Chapel"
         role: "Coordinator"
         link: "https://people.irisa.fr/Laetitia.Chapel/"
+        photo: "laetitia.jpg"
       - name: "Nicolas Courty"
         link: "https://people.irisa.fr/Nicolas.Courty/"
+        photo: "nicolas.jpg"
       - name: "Romain Tavenard"
         link: "https://rtavenar.github.io/"
+        photo: "romain.jpg"
       - name: "Yann Cabanes"
-        link: ""   # TODO: add personal page
+        link: "https://ycabanes.perso.math.cnrs.fr/"   # TODO: add personal page
 
   - institution: "Inria Lyon"
     members:
       - name: "Titouan Vayer"
         link: "https://tvayer.github.io/"
+        photo: "titouan.png"
       - name: "Mathurin Massias"
         link: "https://mathurinm.github.io/"
 
@@ -59,13 +65,5 @@ groups:
       - name: "Julie Delon"
         link: "https://judelo.github.io/"
       - name: "Kimia Nadjahi"
-        link: ""   # TODO: add personal page
+        link: "https://kimiandj.github.io/"   # TODO: add personal page
 
-# Recruitments planned (source: "Recruitments and first actions" slide).
-recruitments:
-  - "X-IPP — 1y Engineer (2027 or 2028)"
-  - "X-IPP — 1y PostDoc (2027 or 2028)"
-  - "UBS — 1y PostDoc (early 2027)"
-  - "UBS — PhD student, ½ funding (2027–2030)"
-  - "Inria Lyon — PhD student (2027–2030)"
-  - "ENS — PhD student (2027–2030)"
