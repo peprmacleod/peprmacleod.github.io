@@ -33,11 +33,4 @@ lead: >-
 </div>
 {% endfor %}
 
-## Planned recruitments
 
-<ul>
-{% for r in site.data.team.recruitments %}<li>{{ r }}</li>{% endfor %}
-</ul>
-
-<p class="muted small"><em>Names expanded from the consortium slide — please
-verify spellings and add emails / personal pages in <code>_data/team.yml</code>.</em></p>

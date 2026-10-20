@@ -22,8 +22,9 @@ groups:
       - name: "Charlotte Laclau"
       - name: "Karim Lounici"
       - name: "Luiz Chamon"
+      - name: "Clément Bonet"
 
-  - institution: "Université Bretagne Sud (UBS)"
+  - institution: "Université Bretagne Sud (UBS) - IRISA "
     members:
       - name: "Laetitia Chapel"
         role: "Coordinator"
