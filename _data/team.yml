@@ -12,10 +12,12 @@ leads:
     role: "Coordinator"
     affiliation: "École Polytechnique"
     link: "https://remi.flamary.com/"
+    photo: "remi.jpg"
   - name: "Laetitia Chapel"
     role: "Coordinator"
     affiliation: "Institut Agro / Université Bretagne Sud"
     link: "https://people.irisa.fr/Laetitia.Chapel/"
+    photo: "laetitia.jpg"
 
 # Members grouped by partner institution (as on the consortium slide).
 groups:
@@ -31,7 +33,8 @@ groups:
       - name: "Charlotte Laclau"
         link: "https://laclauc.github.io/"
       - name: "Karim Lounici"
-        link: "https://klounici.github.io/"   # TODO: add personal page
+        link: "https://klounici.github.io/"
+        photo: "karim.png"
       - name: "Luiz Chamon"
         link: "https://luizchamon.com/"
       - name: "Clément Bonet"

@@ -1,7 +1,8 @@
 {%- assign p = include.p -%}
 <div class="person">
   {% if p.photo %}
-    <img class="avatar" src="{{ p.photo | relative_url }}" alt="{{ p.name }}" loading="lazy">
+    {%- if p.photo contains "/" -%}{%- assign _src = p.photo -%}{%- else -%}{%- assign _src = "/assets/img/team/" | append: p.photo -%}{%- endif -%}
+    <img class="avatar" src="{{ _src | relative_url }}" alt="{{ p.name }}" loading="lazy">
   {% else %}
     {%- assign _parts = p.name | split: " " -%}
     <span class="avatar avatar--mono" aria-hidden="true">{{ _parts.first | slice: 0 }}{{ _parts.last | slice: 0 }}</span>
