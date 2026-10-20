@@ -5,11 +5,19 @@ eyebrow: Updates
 lead: Announcements, talks, events and milestones from the MacLeOD project.
 ---
 
-<p class="muted"><em>No news yet. Add Markdown files to a <code>_posts/</code>
-folder (named <code>YYYY-MM-DD-title.md</code>) to turn this into a blog, or
-list items manually below.</em></p>
+<ul class="news-list">
+  <li>
+    <span class="muted small">NeurIPS 2026 · Paris</span>
+    <p><strong><a href="https://neurips.cc/virtual/2026/workshop/137622">Geometric
+    Distributional Deep Learning (GDDL) workshop</a></strong> — a NeurIPS 2026
+    workshop co-organised by members of the project (Kimia Nadjahi and Clément
+    Bonet), bringing together geometric deep learning, optimal transport,
+    generative modelling and representation learning.</p>
+  </li>
+</ul>
 
 {% if site.posts and site.posts.size > 0 %}
+<h2>Posts</h2>
 <ul class="plain">
 {% for post in site.posts %}
   <li style="margin-bottom:1rem;">

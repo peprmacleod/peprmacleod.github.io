@@ -11,11 +11,7 @@ lead: >-
 
 <div class="people">
 {% for p in site.data.team.leads %}
-  <div class="person">
-    <div class="name">{% if p.link != "" %}<a href="{{ p.link }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</div>
-    <div class="role">{{ p.role }}</div>
-    <div class="aff">{{ p.affiliation }}</div>
-  </div>
+  {% include person.html p=p %}
 {% endfor %}
 </div>
 
@@ -25,12 +21,17 @@ lead: >-
 <h3>{{ g.institution }}</h3>
 <div class="people">
 {% for p in g.members %}
-  <div class="person">
-    <div class="name">{% if p.link %}<a href="{{ p.link }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</div>
-    {% if p.role %}<div class="role">{{ p.role }}</div>{% endif %}
-  </div>
+  {% include person.html p=p %}
 {% endfor %}
 </div>
 {% endfor %}
 
+## Planned recruitments
 
+<ul>
+{% for r in site.data.team.recruitments %}<li>{{ r }}</li>{% endfor %}
+</ul>
+
+<p class="muted small"><em>Add a personal-page link (<code>link:</code>) and a
+photo (<code>photo:</code>, a file in <code>assets/img/team/</code>) for each
+member in <code>_data/team.yml</code>. Without a photo, a monogram is shown.</em></p>

@@ -1,16 +1,21 @@
 # Consortium — source: slide_mcleod (slide "Project MacLeOD consortium").
 # First names expanded from initials where known in the community; PLEASE VERIFY
-# spellings and add missing people / links / emails.
+# spellings and add missing people / emails.
+#
+# Each member may have:
+#   link:  URL of their personal page
+#   photo: image in assets/img/team/ (shown as a small round avatar; monogram if absent)
+# Links below were verified live (HTTP 200 + name on page); a few remain blank.
 
 leads:
   - name: "Rémi Flamary"
     role: "Coordinator"
     affiliation: "École Polytechnique"
-    link: ""
+    link: "https://remi.flamary.com/"
   - name: "Laetitia Chapel"
     role: "Coordinator"
     affiliation: "Institut Agro / Université Bretagne Sud"
-    link: ""
+    link: "https://people.irisa.fr/Laetitia.Chapel/"
 
 # Members grouped by partner institution (as on the consortium slide).
 groups:
@@ -18,29 +23,43 @@ groups:
     members:
       - name: "Rémi Flamary"
         role: "Coordinator"
+        link: "https://remi.flamary.com/"
       - name: "Florence d'Alché-Buc"
+        link: "https://perso.telecom-paris.fr/fdalche/"
       - name: "Charlotte Laclau"
+        link: "https://laclauc.github.io/"
       - name: "Karim Lounici"
+        link: ""   # TODO: add personal page
       - name: "Luiz Chamon"
+        link: "https://luizchamon.com/"
       - name: "Clément Bonet"
+        link: "https://clbonet.github.io/"
 
   - institution: "Université Bretagne Sud (UBS) - IRISA "
     members:
       - name: "Laetitia Chapel"
         role: "Coordinator"
+        link: "https://people.irisa.fr/Laetitia.Chapel/"
       - name: "Nicolas Courty"
+        link: "https://people.irisa.fr/Nicolas.Courty/"
       - name: "Romain Tavenard"
+        link: "https://rtavenar.github.io/"
       - name: "Yann Cabanes"
+        link: ""   # TODO: add personal page
 
   - institution: "Inria Lyon"
     members:
       - name: "Titouan Vayer"
+        link: "https://tvayer.github.io/"
       - name: "Mathurin Massias"
+        link: "https://mathurinm.github.io/"
 
   - institution: "École Normale Supérieure (ENS)"
     members:
       - name: "Julie Delon"
+        link: "https://judelo.github.io/"
       - name: "Kimia Nadjahi"
+        link: ""   # TODO: add personal page
 
 # Recruitments planned (source: "Recruitments and first actions" slide).
 recruitments:
