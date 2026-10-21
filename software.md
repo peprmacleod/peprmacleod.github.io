@@ -7,11 +7,7 @@ lead: >-
   reproducible and reusable.
 ---
 
-## Reproducibility first
 
-A core goal of the project is to produce and contribute to **open-source
-software** accompanying our research, from optimal-transport solvers to
-geometric deep learning architectures.
 
 {% if site.data.software %}
 <div class="sw-grid">
