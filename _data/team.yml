@@ -24,7 +24,6 @@ groups:
   - institution: "École Polytechnique — IP Paris (X-IPP)"
     members:
       - name: "Rémi Flamary"
-        role: "Coordinator"
         link: "https://remi.flamary.com/"
         photo: "remi.jpg"
       - name: "Florence d'Alché-Buc"
@@ -32,13 +31,16 @@ groups:
         photo: "florence.jpg"
       - name: "Charlotte Laclau"
         link: "https://laclauc.github.io/"
+        photo: "charlotte.png"
       - name: "Karim Lounici"
         link: "https://klounici.github.io/"
         photo: "karim.png"
       - name: "Luiz Chamon"
         link: "https://luizchamon.com/"
+        photo: "luiz.jpg"
       - name: "Clément Bonet"
         link: "https://clbonet.github.io/"
+
 
   - institution: "Université Bretagne Sud (UBS) - IRISA "
     members:
@@ -53,7 +55,8 @@ groups:
         link: "https://rtavenar.github.io/"
         photo: "romain.jpg"
       - name: "Yann Cabanes"
-        link: "https://ycabanes.perso.math.cnrs.fr/"   # TODO: add personal page
+        link: "https://ycabanes.perso.math.cnrs.fr/" 
+        photo: "yann.jpg"
 
   - institution: "Inria Lyon"
     members:
@@ -62,11 +65,13 @@ groups:
         photo: "titouan.png"
       - name: "Mathurin Massias"
         link: "https://mathurinm.github.io/"
+        photo: "mathurin.png"
 
   - institution: "École Normale Supérieure (ENS)"
     members:
       - name: "Julie Delon"
         link: "https://judelo.github.io/"
+        photo: "julie.jpg"
       - name: "Kimia Nadjahi"
-        link: "https://kimiandj.github.io/"   # TODO: add personal page
-
+        link: "https://kimiandj.github.io/"
+        photo: "kimia.jpg"
