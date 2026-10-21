@@ -19,9 +19,3 @@ lead: Announcements, talks, events and milestones from the MacLeOD project.
 <p class="muted">No news yet.</p>
 {% endif %}
 
-<p class="muted small" style="margin-top:2.5rem;">
-  To add a news item, drop a Markdown file in <code>_posts/</code> named
-  <code>YYYY-MM-DD-title.md</code> with <code>title</code>, <code>date</code> and
-  an optional <code>event</code>, <code>summary</code> and external
-  <code>link</code> — it appears here automatically.
-</p>
