@@ -40,6 +40,7 @@ groups:
         photo: "luiz.jpg"
       - name: "Clément Bonet"
         link: "https://clbonet.github.io/"
+        photo: "clement.jpg"
 
 
   - institution: "Université Bretagne Sud (UBS) - IRISA "
@@ -65,7 +66,7 @@ groups:
         photo: "titouan.png"
       - name: "Mathurin Massias"
         link: "https://mathurinm.github.io/"
-        photo: "mathurin.png"
+        photo: "mathurin.jpg"
 
   - institution: "École Normale Supérieure (ENS)"
     members:
