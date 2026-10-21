@@ -46,7 +46,6 @@ groups:
   - institution: "Université Bretagne Sud (UBS) - IRISA "
     members:
       - name: "Laetitia Chapel"
-        role: "Coordinator"
         link: "https://people.irisa.fr/Laetitia.Chapel/"
         photo: "laetitia.jpg"
       - name: "Nicolas Courty"
