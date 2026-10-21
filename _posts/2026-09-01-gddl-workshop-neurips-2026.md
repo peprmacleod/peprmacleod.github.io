@@ -9,7 +9,7 @@ summary: "A NeurIPS 2026 workshop co-organised by members of the project (Kimia 
 
 Members of the project **co-organise** the *Geometric Distributional Deep
 Learning (GDDL)* workshop at **NeurIPS 2026** in Paris — co-organised by
-**Kimia Nadjahi** and **Clément Bonet**.
+**Kimia Nadjahi**, **Julie Delon** and **Clément Bonet**.
 
 The workshop brings together geometric deep learning, computational optimal
 transport, generative modelling and representation learning.
