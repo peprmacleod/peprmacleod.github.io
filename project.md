@@ -29,10 +29,3 @@ neural architectures needed to make them practical at scale.
 {{ axis.summary }}
 {% endfor %}
 
-
-<div class="callout" markdown="1">
-This page summarises the project. See the
-[institutional page on pepr-ia.fr]({{ site.institutional_page }}) for the
-official description, and the [Publications]({{ '/publications/' | relative_url }})
-and [Software]({{ '/software/' | relative_url }}) pages for outputs.
-</div>

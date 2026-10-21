@@ -3,8 +3,6 @@ layout: page
 title: Publications
 eyebrow: Outputs
 lead: >-
-  Publications of the project, pulled automatically from HAL via the project's
-  ANR reference. The list updates itself as new work is deposited.
 ---
 
 <div id="hal-pubs" data-anr="{{ site.hal_anr_code }}">
