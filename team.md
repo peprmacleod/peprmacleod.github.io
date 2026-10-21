@@ -18,11 +18,13 @@ lead: >-
 ## Members by institution
 
 {% for g in site.data.team.groups %}
-<h3>{{ g.institution }}</h3>
-<div class="people">
-{% for p in g.members %}
-  {% include person.html p=p %}
-{% endfor %}
-</div>
+<section class="team-group">
+  <h3>{{ g.institution }}</h3>
+  <div class="people">
+  {% for p in g.members %}
+    {% include person.html p=p %}
+  {% endfor %}
+  </div>
+</section>
 {% endfor %}
 
